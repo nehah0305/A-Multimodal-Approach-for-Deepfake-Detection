@@ -2,8 +2,8 @@ import React from 'react';
 
 function Results({ data }) {
   return (
-    <div style={{ marginTop: '20px' }}>
-      <h2>Analysis Results</h2>
+    <div className="card">
+      <h3>Analysis Results</h3>
       <p>
         <strong>Audio:</strong> {data.audio}
       </p>
